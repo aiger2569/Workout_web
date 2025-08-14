@@ -1,27 +1,83 @@
 *{
-    margin: 0;
-    padding: 0;
- 
-}
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    background-color: antiquewhite;
+    
+    text-align:center;
 }
 nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+    align-items: first baseline;
+    align-items:center;
+    word-spacing: normal;
+    
 }
-.nav-links{
-    text-align:left;
+nav li{
+  align-items: baseline;
+ display: inline-block;
+margin-right: 10px;
+
 }
-button{
-    text-align: end;
+section{
+    display: flexbox;
 }
-section #1{
-    box-sizing: 12p;
+#create-text {
+  font-weight: bold;
+  
 }
+
+#create-text {
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  text-decoration: none; /* No underline by default */
+}
+
+#create-text::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width .75s ease;
+}
+#create-text:hover::after {
+    width: 100%;
+}
+.Styles{
+    border: 1 solid #000;
+    background: #000;
+    color: aliceblue;
+    display: inline-block;
+    padding-inline: 20px;
+  background-color: #000;
+
+}
+#Styles-1{
+  
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-image: 100px;
+}
+#Styles-3{
+    
+    text-align: left;
+    width: 100px;
+    height: 100px;
+}
+#Styles-4{
+    
+    text-align: left;
+    width: 100px;
+   
+    height: 100px;
+}
+#Styles-2
+{
+    text-align: left;
+    width: 100px;
+    height: 100px;}
+    img{
+        
+    }
